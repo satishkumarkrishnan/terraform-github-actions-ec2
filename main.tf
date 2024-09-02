@@ -21,7 +21,6 @@ resource "aws_vpc" "ddsl-vpc" {
   }
 }
 # Create Security Groups
-resource "aws_security_group" "ddsl-securitygroup" {
-  count  = 2
+resource "aws_security_group" "ddsl-securitygroup" {  
   vpc_id = aws_vpc.ddsl-vpc.id
 }
