@@ -5,6 +5,6 @@ resource "aws_instance" "newinstance" {
 
   tags = {
     Name        = "newinstance"
-    description = "ec2forsshandicmp"
+    description = "Test EC2 for GHE Actions"
   }
 }
